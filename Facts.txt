@@ -1,0 +1,6 @@
+1. Cors should be Written After app.UseHttpsRedirection();
+ > app.UseHttpsRedirection();
+ > app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowCredentials()
+    .SetIsOriginAllowed(origin =>true));

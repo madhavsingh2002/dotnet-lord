@@ -1,0 +1,2 @@
+1. dotnet new webapi -o api
+2. dotnet watch run.

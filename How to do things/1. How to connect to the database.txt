@@ -1,0 +1,12 @@
+1. First the Create the Models.
+2. then install the following:
+> Microsoft.EntityFrameworkCore.SQLServer.
+> Microsoft.EntityFrameworkCore.Tools.
+> Microsoft.EntityFrameworkCore.Design.
+3. Create the ApplicationDBContext.cs
+4. Refer the applicationDBContext into the program.cs
+5. Add the Connection string into the appsettting.json
+6. Run the following Comments:
+> dotnet ef migrations add init
+> dotnet ef database update
+7. turnoff (false) InvarientGlobalization from api.csproj
